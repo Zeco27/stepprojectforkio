@@ -279,7 +279,7 @@ table {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  background-color: #8D81AC;
+  background-color: #8d81ac;
   border-radius: 40px;
   border: none;
   -webkit-transition: 0.4s;
@@ -299,7 +299,7 @@ table {
 }
 
 .header__button:hover {
-  border: 1px solid #8D81AC;
+  border: 1px solid #8d81ac;
   background-color: #fff;
   color: #8e80ac;
 }
@@ -340,7 +340,7 @@ table {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border-bottom: 3px solid #3B3B3B;
+  border-bottom: 3px solid #3b3b3b;
   position: relative;
 }
 
@@ -348,7 +348,7 @@ table {
   content: "";
   width: 8px;
   height: 53px;
-  background-color: #8D81AC;
+  background-color: #8d81ac;
   position: absolute;
   left: 0;
   z-index: 15;
@@ -484,7 +484,7 @@ table {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  background-color: #8D81AC;
+  background-color: #8d81ac;
   border-radius: 40px;
   border: none;
   -webkit-transition: 0.4s;
@@ -497,7 +497,7 @@ table {
 }
 
 .hero-block__button:hover {
-  border: 1px solid #8D81AC;
+  border: 1px solid #8d81ac;
   background-color: #fff;
   color: #8e80ac;
 }
@@ -1058,7 +1058,7 @@ a {
 @media (max-width: 992px) {
   .header {
     height: 118px;
-    background-color: #27262A;
+    background-color: #27262a;
   }
 
   .header__nav {
