@@ -1,0 +1,79 @@
+.revolutionary {
+  max-width: 1200px;
+  width: 100%;
+    padding: 130px 0 70px;
+    &__title {
+        font-weight: 700;
+        font-size: 54px;
+        text-transform: uppercase;
+        color: #635C73;
+        text-align: center;
+        margin-bottom: 35px;
+    }
+    &__descr {
+        @include fontStyle(21px, 400, 32px, #323232, center, none,'Lato');
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    &__btns {
+        @include displayFlex(space-between);
+        max-width: 365px;
+        margin: 0 auto;
+    }
+    &__btn {
+        @include displayFlex();
+        border: 1px solid #D5D5D5;
+        color: #323232;
+        font-weight: 700;
+        font-size: 12px;
+        border-radius: 3px;
+    }
+    &__name {
+        background: linear-gradient(#FCFCFC, #EEEEEF);
+        border-right: 1px solid #D5D5D5;
+        padding: 6px;
+        @include displayFlex(space-between);
+        cursor: pointer;
+        svg {
+            margin-right: 5px;
+        }
+    }
+    &__number {
+        padding: 6px;
+    }
+}
+
+@media (max-width: 992px){
+    .revolutionary {
+      width: 100vw;
+        &__title {
+          font-size: 42px;
+        }
+        &__descr {
+          font-size: 21px;
+        }
+    }    
+}
+
+@media (max-width:480px) {
+  .revolutionary {
+    width: 100vw;
+      &__title {
+        font-size: 26px;
+        line-height: 28px;
+      }
+      &__descr {
+        width: calc(100% - 20px);
+        font-size: 14px;
+      }
+      &__btns {
+        max-width: 300px;
+        height: 80px;
+        @include displayFlex(center);
+        flex-wrap: wrap;
+      }
+      &__btn:first-child {
+        margin-right: 10px;
+      }
+  }    
+}
