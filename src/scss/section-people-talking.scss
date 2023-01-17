@@ -25,6 +25,9 @@
       margin: 0 auto;
     }
   }
+  .title{
+    @include fontStyle(48px, 700, 50px, #fff, center, none, "Montserrat");
+  }
   .testimonials-clients {
     &__wrapper {
       margin-top: 82px;

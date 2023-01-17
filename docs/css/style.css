@@ -788,6 +788,16 @@ table {
   margin: 0 auto;
 }
 
+.title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 50px;
+  color: #fff;
+  text-align: center;
+  font-family: "Montserrat";
+  text-transform: none;
+}
+
 .testimonials-clients__wrapper {
   margin-top: 82px;
   width: 100%;
