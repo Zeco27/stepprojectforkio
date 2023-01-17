@@ -848,6 +848,16 @@ table {
   font-style: italic;
 }
 
+.title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 50px;
+  color: #fff;
+  text-align: center;
+  font-family: "Montserrat";
+  text-transform: none;
+}
+
 .fork {
   padding: 110px 0 75px;
   margin-top: -12px;
